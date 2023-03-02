@@ -1,7 +1,7 @@
 import pyflp
 import eel
 
-flp = pyflp.parse("C:\\Users\\alexkarabetsos\\Downloads\\tee.flp")
+flp = pyflp.parse("C:\\Users\\SOSA\\Downloads\\tee.flp")
 
 tempo = flp.tempo
 time_spent = flp.time_spent
