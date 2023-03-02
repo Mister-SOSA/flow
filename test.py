@@ -12,5 +12,8 @@ playlist = flp.arrangements[0]
 print(playlist)
 
 eel.init('web')
-eel.start('/templates/main.html', size=(700, 600),
-          mode='electron')
+
+eel.browsers.set_path('electron', './node_modules/electron/dist/electron')
+
+eel.start('./templates/base.html', mode='electron', port=8000,
+          size=(400, 600), jinja_templates='templates')

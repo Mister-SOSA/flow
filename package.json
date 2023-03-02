@@ -1,0 +1,23 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "description": "A program which better manages your FLP files for FL Studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mister-SOSA/flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mister-SOSA/flow/issues"
+  },
+  "homepage": "https://github.com/Mister-SOSA/flow#readme",
+  "devDependencies": {
+    "electron": "^23.1.1"
+  }
+}
