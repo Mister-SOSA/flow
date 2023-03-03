@@ -110,4 +110,48 @@ body {
     border-radius: 0.5rem;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
+    box-shadow: 0px 14px 10px -10px rgba(0, 0, 0, 0.1);
+}
+
+.flp-item__project-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flp-item__attr-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.attr-icon {
+    margin-right: 0.5rem !important;
+    scale: 0.8;
+    opacity: 0.5;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    width: 100%;
+}
+
+.toolbar-icon {
+    margin-right: 0.5rem !important;
+    scale: 0.8;
+    opacity: 0.5;
+}
+
+.toolbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }

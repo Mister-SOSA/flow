@@ -4,14 +4,8 @@
 <head>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../scripts/app.js"></script>
+    <link href='https://css.gg/css' rel='stylesheet'>
 </head>
-
-<script>
-    // keep reloading
-    setInterval(function () {
-        location.reload();
-    }, 1000);
-</script>
 
 <div class="header">
     <h1>Beatkeeper</h1>
@@ -20,20 +14,26 @@
 <body>
 
     <div class="flp-browser">
-        <div class="flp-item">
-            <div class="flp-item__image">
-                <svg class="flp-item__image-icon" viewBox="0 0 24 24">
-                    <path
-                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-5h2v2h-2v-2zm0-8h2v6h-2V7z">
-                    </path>
-                </svg>
-            </div>
-            <div class="flp-item__project-data">
-                <span class="flp-item__project-file-name">My Project.flp</span>
-            </div>
-        </div>
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
+        {% include "flpitem.html" %}
     </div>
 
 </body>
+
+<div class="toolbar">
+    <div class="toolbar-item__file-count toolbar-item">
+        <i class='gg-file toolbar-icon'></i>
+        <span class="file-count">7</span>
+    </div>
+    <div class="toolbar-item__file-size toolbar-item">
+        <i class='gg-drive toolbar-icon'></i>
+        <span class="file-size">1.2 GB</span>
+    </div>
+</div>
 
 </html>
